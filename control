@@ -1,7 +1,7 @@
 Package: com.linusyang.cve-2014-1266
 Name: SSL Patch (CVE-2014-1266)
 Priority: optional
-Pre-Depends: firmware (>= 6.0), firmware (<< 6.1.6) | firmware (>= 7.0), firmware (<< 7.0.6)
+Pre-Depends: firmware (>= 6.0), firmware (<< 6.1.6) | firmware (>= 7.0), firmware (<< 7.0.6) | firmware (>= 7.1) 
 Depends: mobilesubstrate
 Version: 0.1
 Architecture: iphoneos-arm
