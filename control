@@ -1,11 +1,12 @@
 Package: com.linusyang.cve-2014-1266
 Name: SSL Patch (CVE-2014-1266)
 Priority: optional
-Pre-Depends: firmware (>= 6.0), firmware (<< 6.1.6) | firmware (>= 7.0), firmware (<< 7.0.6)
-Depends: mobilesubstrate
-Version: 0.1
+Pre-Depends: firmware (>= 6.0), firmware (<< 6.1.6) | firmware (>= 7.0), firmware (<< 7.0.6) | firmware (= 7.1)
+Depends: mobilesubstrate (>= 0.9.5000)
+Version: 0.2
 Architecture: iphoneos-arm
 Description: protects against known SSL verification exploit (goto fail)
 Maintainer: Linus Yang <laokongzi@gmail.com>
 Author: Linus Yang <laokongzi@gmail.com>
 Section: Tweaks
+Homepage: https://github.com/linusyang/SSLPatch

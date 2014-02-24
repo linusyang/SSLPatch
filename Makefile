@@ -2,7 +2,10 @@ include theos/makefiles/common.mk
 
 IPHONE_ARCHS = armv7 arm64
 TWEAK_NAME = SSLPatch_CVE-2014-1266
-SSLPatch_CVE-2014-1266_FILES = Tweak.xm internal.c
+TARGET_IPHONEOS_DEPLOYMENT_VERSION = 6.0
+
+SSLPatch_CVE-2014-1266_FILES = Tweak.x minimal.c
+SSLPatch_CVE-2014-1266_CFLAGS = -fvisibility=hidden
 SSLPatch_CVE-2014-1266_LIBRARIES = substrate
 SSLPatch_CVE-2014-1266_FRAMEWORKS = Security
 
